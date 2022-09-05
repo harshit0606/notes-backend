@@ -16,4 +16,4 @@ app.use(morgan("dev"));
 app.use("/api",routes);
 app.listen(PORT,()=>console.log("Server is running"));
 
-
+module.exports = app;
